@@ -1,0 +1,44 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(18, 18, 87);
+  margin-bottom: 100px;
+}
+
+.caja1 {
+  border-style: solid;
+  border-width: 10px;
+  border-color: red blue green black;
+  border-radius: 15px;
+  width: 200px;
+  padding: 2px;
+  background: linear-gradient(10145deg, blue, white);
+  margin-bottom: 160px;
+}
+
+.tituloCaja1 {
+  text-align: center;
+  color: rgb(18, 18, 87);
+  font-size: 25px;
+}
+
+.caja2 {
+  border: 10px solid;
+  border-image: linear-gradient(to right top, #e2447b, #4c8fe1) 1;
+  width: 200px;
+  padding: 2px;
+  background-color: black;
+}
+
+.tituloCaja2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
